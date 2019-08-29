@@ -1,0 +1,196 @@
+body{
+    background: #f5f5f5;
+}
+.container{
+    width: 1226px;
+    margin: 0 auto;
+}
+.cart-title{
+    height: 100px;
+    background: #fff;
+    border-bottom: 2px solid #ff6700;
+}
+.cart-title .cart-count{
+    height: 74px;
+    background: #fff;
+}
+.cart-title .cart-count .cart-logo{
+    width: 93px;
+    height: 48px;
+    float: left;
+    position: relative;
+    margin-top: 26px;
+    box-sizing: border-box;
+}
+.cart-title .cart-count .cart-logo .img2{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.cart-title .cart-count .cart-txt{
+    height: 48px;
+    float: left;
+    margin-left: 3px;
+    text-align: center;
+    margin-top: 26px;
+    box-sizing: border-box;
+}
+.cart-title .cart-count .cart-txt h2{
+    float: left;
+    font-size: 28px;
+    line-height: 48px;
+    color: #424242;
+    font-weight: normal;
+}
+.cart-title .cart-count .cart-logo a img{
+    width: 48px;
+    height: 48px;
+}
+.cart-title .cart-count .cart-txt p{
+    float: left;
+    height: 20px;
+    font-size: 12px;
+    color: #757575;
+    line-height: 20px;
+    margin: 20px 0 0 15px;
+}
+.cart-title .cart-count .cart-login{
+    float: right;
+    height: 40px;
+    margin-top: 30px;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+.cart-title .cart-count .cart-login a{
+    font-size: 12px;
+    color: #757575;
+}
+.cart-title .cart-count .cart-login span{
+    color: #b0b0b0;
+}
+.page-main{
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+.page-main .main-count .m-com{
+    height: 273px;
+    padding-left: 558px;
+    margin: 65px 0 130px;
+    overflow: hidden;
+    background: url(../images/cart-empty.png) no-repeat 124px 0;
+}
+.page-main .main-count .m-com h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #b0b0b0;
+    margin: 70px 0 15px;
+}
+.page-main .main-count .m-com p{
+    font-size: 20px;
+    color: #b0b0b0;
+    margin-bottom: 20px;
+}
+.page-main .main-count .m-com a{
+    width: 170px;
+    height: 48px;
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    font-size: 14px;
+    color: #fff;
+    background: #ff6700;
+}
+.page-main .main-count .m-com .gw{
+    border: 1px solid #ff6700;
+    color: #ff6700;
+    margin-left: 10px
+}
+.page-main .main-menu h2{
+    position: relative;
+    height: 50px;
+    font-size: 30px;
+    color: #757575;
+    border-top: 1px solid #e0e0e0;
+}
+.page-main .main-menu h2 span{
+    width: 482px;
+    height: 40px;
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    position: absolute;
+    top: -20px;
+    left: 372px;
+    background: #f5f5f5;
+}
+.page-main .main-menu .menu-com ul li{
+    float: left;
+    height: 300px;width: 234px;
+    background: #fff;
+    margin:0 0 14px 14px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.main-menu .menu-com ul li dl{
+    padding: 0 20px;
+}
+.main-menu .menu-com ul li dl dt{
+    padding: 40px 0 15px;
+    height: 145px;
+}
+.main-menu .menu-com ul li dl dt a img{
+    width: 140px;
+    height: 140px;
+}
+.main-menu .menu-com ul li dl .xm-name{
+    margin-bottom: 10px;
+    height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    overflow: hidden;
+}
+.main-menu .menu-com ul li dl dd{
+    text-align: center;
+}
+.main-menu .menu-com ul li dl .xm-name a{
+    color: #333;
+}
+.main-menu .menu-com ul li dl .xm-price{
+    margin-bottom: 10px;
+    color: #ff6700;
+    font-size: 14px;
+}
+.main-menu .menu-com ul li dl .xm-tips{
+    color: #757575;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    position: relative;
+}
+.menu-com ul li dl .xm-tips .xm-btn{
+    width: 120px;
+    height: 28px;
+    display: none;
+    line-height: 28px;
+    font-size: 12px;
+    border: 1px solid #ff6700;
+    color: #ff6700;
+    position: relative;
+    background: #fff;
+    top: -28px;
+    z-index: 20;
+    left: 37px;
+    font-weight: normal;
+}
+.main-menu .menu-com ul li:hover .xm-btn{
+    display: block;
+}
+.main-menu .menu-com ul li dl .xm-btn:hover {
+    background-color: #f60;
+    color: white;
+}
+.i_acity2 {
+    border-color: #ff6700 !important;
+    background-color: #ff6700 !important;
+}

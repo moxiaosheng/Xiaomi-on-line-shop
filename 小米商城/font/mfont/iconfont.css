@@ -1,0 +1,36 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1566817788184'); /* IE9 */
+  src: url('iconfont.eot?t=1566817788184#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAMoAAsAAAAABwgAAALcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqBWIFWATYCJAMMCwgABCAFhG0HThs0BsieA26s8QiOlPQ3yZDMaATVWvbs7n+A2cUClQdUgCrCg4yKlDE6wrARd2hTz1HCG7H2IMBT3g/6yHKAoOWtM/NUTwWCCXiiBAjQy4KH4f+5nN7VFpvfarvMNah3GMVxQIHtbVGUaAFiw/TyBQ3kfQLNxoUx7ReU1YGzQi8LxJMsdYNzzqa0NIdGoV6ztxyZNsFBY3qzuwa8h7+PfzE5k9Qy/dDBYz4PWV9hHw6jyf+T0JZtbPN5wA6RsQoU4rLWdwHFuVVIM9fYi25QV4Q0V/L/f0KZMNR3+sdLRJ1ubAWLMJ/4CnNsgq/D+ySQQd1rFDaAM0Ts/XSWBpGptW/EffnsxYPg+HLo0jk3j5ULV46YnF4PXz4/qM9ovX+//uHDxgcPGu7d4+p37vGs27Hs7b1ryqexwbvAZ/dK+Vf3+b/Ji/Bf9I/Ie+OfUuMy2jPi3iT+OP5kQDX8UP2MTn//fhqJ/QF0GpVXFn38sD902Ju0139vzFLA0rXrN64HD8fsDYAuoDr/P0U7soHqNjqCIv/xc9b+NNlZ2i9ntwI+l178CXv6OzTegT/4o5byuwXZqxJGOFqADPZ9E7Kpu8skNJsQFQp1ezHe0CcaCY36UkgajEHWaBYtxFWoabEOdY22oNmKwsMtelBIlCYsmwMQOh2BpN0HZJ2uo4X4HGr6fYK6zhA0OwuPM1vMJ7vmUqGbCTzuGcIyR3TROplr1FwjSFa1m2aVIa1BoBY5iaMjoorFQkEX6BwbLP1SDGMiFinRcAF4TFBVgg1KzALHInoZM1IiI8W6N0VwRANXeyhBN0bAw3oMwWQcQif6wxnX0vdrCCRWqm60BZOLNhBQFvL4WLQIUT3QQp3eC3Mvr1j0k8RgGBEmoggNVgBmCVQqAjPqZ5kJOEyE3hEZQ4pI00/sq4tY36B93xFops/IkSJHUb8lYrcuBZhlP8OINXzIeTnrYE4Mu0i4KKsqAA==') format('woff2'),
+  url('iconfont.woff?t=1566817788184') format('woff'),
+  url('iconfont.ttf?t=1566817788184') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1566817788184#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bofang:before {
+  content: "\e62c";
+}
+
+.icon-jiantou-you-cuxiantiao-fill:before {
+  content: "\e6ae";
+}
+
+.playit{
+		position: relative;
+    left: -120px;
+    top: -40px;
+    font-size: 25px;
+    color: white;
+}
+.playit:hover{
+	transition:all 0.8s;
+	color: #ff6802;
+}
